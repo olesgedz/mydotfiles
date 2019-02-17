@@ -1,0 +1,49 @@
+{
+  "_from": "https://www.atom.io/api/packages/header-42/versions/0.3.3/tarball",
+  "_id": "header-42@0.3.3",
+  "_inBundle": false,
+  "_integrity": "sha512-bhqNUyZKJ8ZHMFWvcvtX/YjEtIIjjXB5yNCfYHryXdh0N+FtbxKwwcJMVTz5NAFsSyY8TYohFPAxTzyGLUT0sA==",
+  "_location": "/header-42",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/header-42/versions/0.3.3/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/header-42/versions/0.3.3/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/header-42/versions/0.3.3/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/header-42/versions/0.3.3/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/header-42/versions/0.3.3/tarball",
+  "_shasum": "fe8706a5f1a61a6ba17dfa42c01e24c004aef2e3",
+  "_spec": "https://www.atom.io/api/packages/header-42/versions/0.3.3/tarball",
+  "_where": "/private/var/folders/8r/ysrz2h3x50ddk96cj9x2w9gh0000gn/T/apm-install-dir-118113-42547-56tffi.atr7b",
+  "bugs": {
+    "url": "https://github.com/Kerosene2000/atom-header-42/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "moment": "2.10.6",
+    "sprintf-js": "1.0.3"
+  },
+  "deprecated": false,
+  "description": "Add the 42 header to your project files",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/Kerosene2000/atom-header-42#readme",
+  "keywords": [
+    "42",
+    "header"
+  ],
+  "license": "MIT",
+  "main": "./lib/header-42",
+  "name": "header-42",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kerosene2000/atom-header-42.git"
+  },
+  "version": "0.3.3"
+}

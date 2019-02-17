@@ -1,0 +1,57 @@
+{
+  "_from": "https://www.atom.io/api/packages/norminette-linter/versions/0.3.1/tarball",
+  "_id": "norminette-linter@0.3.1",
+  "_inBundle": false,
+  "_integrity": "sha512-8PoanSzGWXuki80YOLJBeLE5AilbERmZVbzUOwHBFUPOg32Ly7QwSFH7GiPRuw8SeJSlJOcsqjmcozrCnANk4w==",
+  "_location": "/norminette-linter",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/norminette-linter/versions/0.3.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/norminette-linter/versions/0.3.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/norminette-linter/versions/0.3.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/norminette-linter/versions/0.3.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/norminette-linter/versions/0.3.1/tarball",
+  "_shasum": "75121af01e2884d6848d68fe9c2239ff63982a6c",
+  "_spec": "https://www.atom.io/api/packages/norminette-linter/versions/0.3.1/tarball",
+  "_where": "/private/var/folders/8r/ysrz2h3x50ddk96cj9x2w9gh0000gn/T/apm-install-dir-1181021-7166-1mphau6.tjx2",
+  "bugs": {
+    "url": "https://github.com/Kerosene2000/atom-norminette-linter/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-linter": "^3.0.0",
+    "sprintf-js": "1.0.3"
+  },
+  "deprecated": false,
+  "description": "A linter for the 42 school norm",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/Kerosene2000/atom-norminette-linter#readme",
+  "keywords": [
+    "42",
+    "norm",
+    "linter"
+  ],
+  "license": "MIT",
+  "main": "./lib/norminette-linter",
+  "name": "norminette-linter",
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kerosene2000/atom-norminette-linter.git"
+  },
+  "version": "0.3.1"
+}
