@@ -1,24 +1,16 @@
 "*":
   core:
     disabledPackages: [
-      "norminette-linter"
       "autocomplete-snippets"
-      "snippets"
-    ]
-    telemetryConsent: "limited"
-    themes: [
-      "one-light-ui"
-      "one-light-syntax"
     ]
   editor:
-    fontSize: 12
-    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
     showInvisibles: true
+    softTabs: false
     tabType: "hard"
   "exception-reporting":
-    userId: "40c4292f-5821-4d89-a8d7-1571518a65c3"
-  "gpp-compiler":
-    debug: true
+    userId: "a53e6532-8699-4dcb-ad88-846877aef89f"
   "linter-ui-default": {}
   "norminette-linter":
     rules_CheckAlignement: true
@@ -28,25 +20,6 @@
     rules_CheckBracketSpacing: true
     rules_CheckCallSpacing: true
     rules_CheckCase: true
-    rules_CheckTernaryOperator: true
-    rules_CheckTopCommentHeader: true
-    rules_CheckTypeDeclarationSpacing: true
-    rules_CheckTypePrefixName: true
-    rules_CheckUnaryOperator: true
-    rules_CheckVla: true
   "platformio-ide-terminal":
-    ansiColors:
-      normal:
-        blue: "#e2eaff"
-        yellow: "#cdcbb6"
-      zBright:
-        brightBlue: "#ccfcff"
-        brightYellow: "#fffeb9"
-    iconColors:
-      blue: "#bcfdff"
-      yellow: "#ffffba"
     style:
-      fontFamily: "monofur for powerline"
-      theme: "solarized-dark"
-  welcome:
-    showOnStartup: false
+      fontFamily: "Meslo LG M for Powerline"
