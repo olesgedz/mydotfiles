@@ -1,0 +1,57 @@
+{
+	"name": "code-eol",
+	"displayName": "code-eol",
+	"description": "Display newline characters in your code",
+	"version": "0.3.3",
+	"publisher": "sohamkamani",
+	"repository": {
+		"url": "https://github.com/sohamkamani/code-eol"
+	},
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.15.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/extension",
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "/Users/soham/go/src/github.com/sohamkamani/vscode-eol/node_modules/typescript/bin/tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"vscode": "^1.1.5",
+		"typescript": "^2.5.3",
+		"@types/node": "7.0.4"
+	},
+	"dependencies": {
+		"vsce": "^1.36.2"
+	},
+	"contributes": {
+		"configuration": [
+			{
+				"type": "object",
+				"title": "code-eol Configuration",
+				"properties": {
+					"code-eol.color": {
+						"type": [
+							"string",
+							"null"
+						],
+						"default": null
+					}
+				}
+			}
+		]
+	},
+	"__metadata": {
+		"id": "0d901818-b620-47a2-9d2f-229bc12b330b",
+		"publisherId": "8cad1704-409d-4190-9575-e13f26064473",
+		"publisherDisplayName": "sohamkamani"
+	}
+}
